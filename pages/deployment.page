@@ -1,0 +1,370 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: brand-mark
+    elementType: text
+    bounds: [60, 24, 120, 18]
+    content:
+      fontSize: 12
+      fontFamily: "Poppins"
+      color: "$lightGray"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>PAWHOPE</p>
+
+  - elementId: accent-bar
+    elementType: shape
+    bounds: [60, 60, 4, 28]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-title
+    elementType: text
+    bounds: [76, 58, 900, 36]
+    content:
+      style: "$pageTitle"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Deployment Pipeline &amp; Pre-Launch Checklist</strong></p>
+
+  - elementId: divider-top
+    elementType: shape
+    bounds: [60, 105, 1160, 1]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$borderLight"
+
+  - elementId: deploy-section-title
+    elementType: text
+    bounds: [60, 120, 300, 26]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Vercel Deployment</strong></p>
+
+  - elementId: deploy-content
+    elementType: text
+    bounds: [60, 155, 540, 155]
+    content:
+      fontSize: 15
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <ul>
+        <li>Auto-deploy on Git push via <code>vite build</code></li>
+        <li>Global CDN distribution for static assets</li>
+        <li>Environment variables via <code>.env.example</code></li>
+        <li>README with <code>npm install</code> / <code>npm run dev</code> / <code>npm run build</code></li>
+        </ul>
+
+  - elementId: checklist-title
+    elementType: text
+    bounds: [660, 120, 300, 26]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Pre-Launch Checklist</strong></p>
+
+  - elementId: check1-icon
+    elementType: icon
+    bounds: [660, 160, 20, 20]
+    iconName: "fas:check-circle"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: check1-text
+    elementType: text
+    bounds: [690, 158, 530, 22]
+    content:
+      fontSize: 15
+      fontFamily: "Inter"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Lighthouse 90+ (Performance, A11y, Best Practices)</p>
+
+  - elementId: check2-icon
+    elementType: icon
+    bounds: [660, 190, 20, 20]
+    iconName: "fas:check-circle"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: check2-text
+    elementType: text
+    bounds: [690, 188, 530, 22]
+    content:
+      fontSize: 15
+      fontFamily: "Inter"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Mobile 3G testing for First Contentful Paint</p>
+
+  - elementId: check3-icon
+    elementType: icon
+    bounds: [660, 220, 20, 20]
+    iconName: "fas:check-circle"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: check3-text
+    elementType: text
+    bounds: [690, 218, 530, 22]
+    content:
+      fontSize: 15
+      fontFamily: "Inter"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Keyboard navigation validation across all pages</p>
+
+  - elementId: check4-icon
+    elementType: icon
+    bounds: [660, 250, 20, 20]
+    iconName: "fas:check-circle"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: check4-text
+    elementType: text
+    bounds: [690, 248, 530, 22]
+    content:
+      fontSize: 15
+      fontFamily: "Inter"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>eslint-plugin-jsx-a11y + axe devtools scan</p>
+
+  - elementId: divider-mid
+    elementType: shape
+    bounds: [60, 330, 1160, 1]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$borderLight"
+
+  - elementId: seo-title
+    elementType: text
+    bounds: [60, 350, 300, 26]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>SEO &amp; Meta</strong></p>
+
+  - elementId: seo-content
+    elementType: text
+    bounds: [60, 385, 540, 100]
+    content:
+      fontSize: 15
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <ul>
+        <li>Unique &lt;title&gt; and meta descriptions per page</li>
+        <li>Open Graph tags for social sharing</li>
+        <li>Semantic heading structure (H1-H6)</li>
+        </ul>
+
+  - elementId: monitor-title
+    elementType: text
+    bounds: [660, 350, 300, 26]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Post-Launch Monitoring</strong></p>
+
+  - elementId: monitor-content
+    elementType: text
+    bounds: [660, 385, 560, 100]
+    content:
+      fontSize: 15
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <ul>
+        <li>Vercel Dashboard analytics and logs</li>
+        <li>Performance monitoring for regressions</li>
+        <li>Dependency maintenance schedule</li>
+        </ul>
+
+  - elementId: tools-bg
+    elementType: shape
+    bounds: [60, 510, 1160, 140]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: tools-title
+    elementType: text
+    bounds: [80, 522, 300, 24]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Testing Toolkit</strong></p>
+
+  - elementId: tool1-icon
+    elementType: icon
+    bounds: [80, 560, 24, 24]
+    iconName: "fas:gauge-high"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: tool1-label
+    elementType: text
+    bounds: [112, 560, 130, 22]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Lighthouse CI</p>
+
+  - elementId: tool2-icon
+    elementType: icon
+    bounds: [260, 560, 24, 24]
+    iconName: "fas:keyboard"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: tool2-label
+    elementType: text
+    bounds: [292, 560, 130, 22]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>axe DevTools</p>
+
+  - elementId: tool3-icon
+    elementType: icon
+    bounds: [440, 560, 24, 24]
+    iconName: "fas:code"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: tool3-label
+    elementType: text
+    bounds: [472, 560, 180, 22]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>eslint-plugin-jsx-a11y</p>
+
+  - elementId: tool4-icon
+    elementType: icon
+    bounds: [670, 560, 24, 24]
+    iconName: "fas:mobile-screen"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: tool4-label
+    elementType: text
+    bounds: [702, 560, 130, 22]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Mobile 3G Test</p>
+
+  - elementId: tool5-icon
+    elementType: icon
+    bounds: [850, 560, 24, 24]
+    iconName: "fas:chart-line"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: tool5-label
+    elementType: text
+    bounds: [882, 560, 130, 22]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Vercel Analytics</p>
+
+  - elementId: bottom-line
+    elementType: shape
+    bounds: [60, 680, 1160, 2]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-num
+    elementType: text
+    bounds: [1160, 688, 60, 18]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>13</p>

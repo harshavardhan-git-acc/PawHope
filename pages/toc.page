@@ -1,0 +1,213 @@
+pageType: table_of_contents
+background:
+  type: solid
+  color: "$darkBg"
+elements:
+  - elementId: toc-label
+    elementType: text
+    bounds: [80, 60, 300, 30]
+    content:
+      fontSize: 14
+      fontFamily: "Poppins"
+      color: "$lightGray"
+      letterSpacing: 4
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>TABLE OF CONTENTS</p>
+
+  - elementId: toc-title
+    elementType: text
+    bounds: [80, 100, 400, 60]
+    content:
+      fontSize: 48
+      fontFamily: "Poppins"
+      color: "$lightText"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>CONTENTS</strong></p>
+
+  - elementId: accent-line-toc
+    elementType: shape
+    bounds: [80, 175, 60, 4]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: ch1-num
+    elementType: text
+    bounds: [80, 220, 80, 55]
+    content:
+      fontSize: 42
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>01</strong></p>
+
+  - elementId: ch1-title
+    elementType: text
+    bounds: [170, 220, 350, 30]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$lightText"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Vision &amp; Design Philosophy</p>
+
+  - elementId: ch1-desc
+    elementType: text
+    bounds: [170, 255, 350, 22]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Emotional storytelling meets minimalist design</p>
+
+  - elementId: ch2-num
+    elementType: text
+    bounds: [640, 220, 80, 55]
+    content:
+      fontSize: 42
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>02</strong></p>
+
+  - elementId: ch2-title
+    elementType: text
+    bounds: [730, 220, 350, 30]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$lightText"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Site Architecture &amp; Components</p>
+
+  - elementId: ch2-desc
+    elementType: text
+    bounds: [730, 255, 380, 22]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Multi-page React app with 20+ components</p>
+
+  - elementId: ch3-num
+    elementType: text
+    bounds: [80, 360, 80, 55]
+    content:
+      fontSize: 42
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>03</strong></p>
+
+  - elementId: ch3-title
+    elementType: text
+    bounds: [170, 360, 460, 30]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$lightText"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Design System &amp; Technical Implementation</p>
+
+  - elementId: ch3-desc
+    elementType: text
+    bounds: [170, 395, 350, 22]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Tailwind CSS, Framer Motion, performance-first</p>
+
+  - elementId: ch4-num
+    elementType: text
+    bounds: [640, 360, 80, 55]
+    content:
+      fontSize: 42
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>04</strong></p>
+
+  - elementId: ch4-title
+    elementType: text
+    bounds: [730, 360, 350, 30]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$lightText"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Deployment &amp; Quality Assurance</p>
+
+  - elementId: ch4-desc
+    elementType: text
+    bounds: [730, 395, 350, 22]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Vercel CI/CD, accessibility audits, monitoring</p>
+
+  - elementId: divider-line
+    elementType: shape
+    bounds: [80, 500, 1120, 1]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "#374151"
+
+  - elementId: footer-tech
+    elementType: text
+    bounds: [80, 520, 500, 20]
+    content:
+      fontSize: 12
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>React 19 + Vite + Tailwind CSS + Framer Motion</p>
+
+  - elementId: footer-date
+    elementType: text
+    bounds: [900, 520, 300, 20]
+    content:
+      fontSize: 12
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>Design &amp; Architecture Plan</p>

@@ -1,0 +1,65 @@
+pageType: chapter
+background:
+  type: solid
+  color: "$darkBg"
+elements:
+  - elementId: bg-image
+    elementType: image
+    bounds: [0, 0, 1280, 720]
+    src: "/mnt/agents/output/pawhope-design/images/4_Clean_Website_Design_Showcase_Mockup.png"
+    fit:
+      mode: cover
+    opacity: 0.4
+
+  - elementId: gradient-mask
+    elementType: shape
+    bounds: [0, 0, 1280, 720]
+    shapeName: rect
+    fill:
+      type: gradient
+      gradientType: linear
+      angle: 0
+      stops:
+        - {position: 0, color: "#1a2332E6"}
+        - {position: 0.6, color: "#1a2332B3"}
+        - {position: 1, color: "#1a233280"}
+
+  - elementId: chapter-num
+    elementType: text
+    bounds: [80, 200, 300, 90]
+    content:
+      style: "$chapterNumber"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>02</strong></p>
+
+  - elementId: accent-line
+    elementType: shape
+    bounds: [80, 300, 80, 4]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: chapter-title
+    elementType: text
+    bounds: [80, 320, 800, 50]
+    content:
+      style: "$chapterTitle"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Site Architecture &amp; Components</strong></p>
+
+  - elementId: chapter-subtitle
+    elementType: text
+    bounds: [80, 385, 700, 50]
+    content:
+      fontSize: 18
+      fontFamily: "Inter"
+      color: "#D1D5DB"
+      align: [left, middle]
+      wrap: true
+      text: |
+        <p>Multi-page React Router application with 8+ page types and a comprehensive component ecosystem</p>

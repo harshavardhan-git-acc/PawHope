@@ -1,0 +1,320 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: brand-mark
+    elementType: text
+    bounds: [60, 24, 120, 18]
+    content:
+      fontSize: 12
+      fontFamily: "Poppins"
+      color: "$lightGray"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>PAWHOPE</p>
+
+  - elementId: accent-bar
+    elementType: shape
+    bounds: [60, 60, 4, 28]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-title
+    elementType: text
+    bounds: [76, 58, 900, 36]
+    content:
+      style: "$pageTitle"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Tailwind Design System &amp; Animations</strong></p>
+
+  - elementId: divider-top
+    elementType: shape
+    bounds: [60, 105, 1160, 1]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$borderLight"
+
+  - elementId: code-block-bg
+    elementType: shape
+    bounds: [60, 125, 540, 340]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$darkBg"
+
+  - elementId: code-block-label
+    elementType: text
+    bounds: [80, 135, 200, 20]
+    content:
+      fontSize: 12
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>tailwind.config.js</p>
+
+  - elementId: code-content
+    elementType: text
+    bounds: [80, 162, 500, 290]
+    content:
+      fontSize: 12
+      fontFamily: "Inter"
+      color: "#D1D5DB"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><span style="color:#60A5FA;">theme</span>: {</p>
+        <p>  <span style="color:#93C5FD;">colors</span>: {</p>
+        <p>    <span style="color:#F59E0B;">cream</span>: <span style="color:#10B981;">'#FFF9F2'</span>,</p>
+        <p>    <span style="color:#F59E0B;">forest</span>: <span style="color:#10B981;">'#2E7D32'</span>,</p>
+        <p>    <span style="color:#F59E0B;">orange</span>: <span style="color:#10B981;">'#F59E0B'</span>,</p>
+        <p>    <span style="color:#F59E0B;">sky</span>: <span style="color:#10B981;">'#60A5FA'</span>,</p>
+        <p>    <span style="color:#F59E0B;">charcoal</span>: <span style="color:#10B981;">'#1F2937'</span></p>
+        <p>  },</p>
+        <p>  <span style="color:#93C5FD;">fontFamily</span>: {</p>
+        <p>    <span style="color:#F59E0B;">heading</span>: [<span style="color:#10B981;">'Poppins'</span>, <span style="color:#10B981;">'sans'</span>],</p>
+        <p>    <span style="color:#F59E0B;">body</span>: [<span style="color:#10B981;">'Inter'</span>, <span style="color:#10B981;">'sans'</span>]</p>
+        <p>  }</p>
+        <p>}</p>
+
+  - elementId: right-title
+    elementType: text
+    bounds: [640, 125, 580, 28]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Design System Highlights</strong></p>
+
+  - elementId: right-list
+    elementType: text
+    bounds: [640, 165, 580, 310]
+    content:
+      fontSize: 15
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong style="color:$primary;">Brand Colors</strong> — Cream, forest green, warm orange, sky blue, charcoal mapped to Tailwind utilities.</p>
+        <p style="margin-top:6px"><strong style="color:$primary;">Typography</strong> — Poppins headings, Inter body. Preloaded via Google Fonts.</p>
+        <p style="margin-top:6px"><strong style="color:$primary;">Border Radius</strong> — Custom 4xl (2rem) for premium cards. Generous responsive spacing.</p>
+        <p style="margin-top:6px"><strong style="color:$primary;">Glassmorphism Nav</strong> — bg-white/30 backdrop-blur-lg frosted-glass with scroll transition.</p>
+
+  - elementId: animation-section-title
+    elementType: text
+    bounds: [60, 480, 400, 28]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Animation Presets (Framer Motion)</strong></p>
+
+  - elementId: anim1-bg
+    elementType: shape
+    bounds: [60, 520, 270, 140]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: anim1-icon
+    elementType: icon
+    bounds: [80, 535, 28, 28]
+    iconName: "fas:arrow-up"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: anim1-title
+    elementType: text
+    bounds: [118, 535, 192, 24]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Fade-In-Up</strong></p>
+
+  - elementId: anim1-desc
+    elementType: text
+    bounds: [80, 570, 230, 78]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Elements fade in while translating upward. Triggered on scroll via useInView.</p>
+
+  - elementId: anim2-bg
+    elementType: shape
+    bounds: [357, 520, 270, 140]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: anim2-icon
+    elementType: icon
+    bounds: [377, 535, 28, 28]
+    iconName: "fas:right-left"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: anim2-title
+    elementType: text
+    bounds: [415, 535, 192, 24]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Slide-In</strong></p>
+
+  - elementId: anim2-desc
+    elementType: text
+    bounds: [377, 570, 230, 78]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Horizontal slide transitions for page navigation and sidebar reveals.</p>
+
+  - elementId: anim3-bg
+    elementType: shape
+    bounds: [654, 520, 270, 140]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: anim3-icon
+    elementType: icon
+    bounds: [674, 535, 28, 28]
+    iconName: "fas:up-right-and-down-left-from-center"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: anim3-title
+    elementType: text
+    bounds: [712, 535, 192, 24]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Scale-on-Hover</strong></p>
+
+  - elementId: anim3-desc
+    elementType: text
+    bounds: [674, 570, 230, 78]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Cards and buttons scale subtly on hover via Framer Motion while.</p>
+
+  - elementId: anim4-bg
+    elementType: shape
+    bounds: [951, 520, 270, 140]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: anim4-icon
+    elementType: icon
+    bounds: [971, 535, 28, 28]
+    iconName: "fas:person-walking"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: anim4-title
+    elementType: text
+    bounds: [1009, 535, 192, 24]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Reduced Motion</strong></p>
+
+  - elementId: anim4-desc
+    elementType: text
+    bounds: [971, 570, 230, 78]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Respects prefers-reduced-motion. All animations disabled when requested.</p>
+
+  - elementId: bottom-line
+    elementType: shape
+    bounds: [60, 680, 1160, 2]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-num
+    elementType: text
+    bounds: [1160, 688, 60, 18]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>10</p>

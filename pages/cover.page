@@ -1,0 +1,68 @@
+pageType: cover
+background:
+  type: solid
+  color: "$darkBg"
+elements:
+  - elementId: bg-image
+    elementType: image
+    bounds: [0, 0, 1280, 720]
+    src: "/mnt/agents/output/pawhope-design/images/1_A_Sad_Puppy_Looks_at_the_Camera_with.png"
+    fit:
+      mode: cover
+    opacity: 0.6
+
+  - elementId: gradient-mask
+    elementType: shape
+    bounds: [0, 0, 1280, 720]
+    shapeName: rect
+    fill:
+      type: gradient
+      gradientType: linear
+      angle: 90
+      stops:
+        - {position: 0, color: "#1a233200"}
+        - {position: 0.5, color: "#1a233280"}
+        - {position: 1, color: "#1a2332E6"}
+
+  - elementId: accent-line
+    elementType: shape
+    bounds: [540, 280, 200, 4]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: title
+    elementType: text
+    bounds: [140, 300, 1000, 130]
+    content:
+      style: "$coverTitle"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>PAWHOPE</strong></p>
+        <p style="margin-top:8px"><span style="font-size:36px; letter-spacing:4px;">EVERY LIFE MATTERS</span></p>
+
+  - elementId: subtitle
+    elementType: text
+    bounds: [240, 450, 800, 30]
+    content:
+      fontSize: 20
+      fontFamily: "Inter"
+      color: "$lightText"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Design &amp; Architecture Plan</p>
+
+  - elementId: tagline
+    elementType: text
+    bounds: [240, 490, 800, 24]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Building a Modern NGO Portal with Emotional Storytelling</p>

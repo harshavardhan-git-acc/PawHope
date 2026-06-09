@@ -1,0 +1,180 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: brand-mark
+    elementType: text
+    bounds: [60, 24, 120, 18]
+    content:
+      fontSize: 12
+      fontFamily: "Poppins"
+      color: "$lightGray"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>PAWHOPE</p>
+
+  - elementId: accent-bar
+    elementType: shape
+    bounds: [60, 60, 4, 28]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-title
+    elementType: text
+    bounds: [76, 58, 900, 36]
+    content:
+      style: "$pageTitle"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Design Inspiration &amp; Influences</strong></p>
+
+  - elementId: divider-top
+    elementType: shape
+    bounds: [60, 105, 1160, 1]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$borderLight"
+
+  - elementId: left-content
+    elementType: text
+    bounds: [60, 125, 620, 530]
+    content:
+      style: "$body"
+      align: [left, top]
+      text: |
+        <p><strong style="color:$primary;">WWF Conservation Model</strong></p>
+        <p>Full-screen wildlife imagery creates immediate emotional connection. Bold nature photography draws users into the mission.</p>
+        <p style="margin-top:16px"><strong style="color:$primary;">Apple Design Language</strong></p>
+        <p>Whitespaces, smooth scroll animations (Framer Motion fade-ups, parallax), and polished transitions guide users through the story.</p>
+        <p style="margin-top:16px"><strong style="color:$primary;">Airbnb Intuitive UX</strong></p>
+        <p>Clear calls-to-action (Donate, Adopt, Volunteer) with intuitive navigation ensure diverse audiences can engage effortlessly.</p>
+        <p style="margin-top:16px"><strong style="color:$primary;">Glassmorphism Navbar</strong></p>
+        <p>Semi-transparent, blurred background (Tailwind backdrop-blur) transitions on scroll for a modern yet legible experience.</p>
+
+  - elementId: right-image
+    elementType: image
+    bounds: [720, 125, 500, 360]
+    src: "/mnt/agents/output/pawhope-design/images/8_The_Power_of_Wildlife_Conservation.png"
+    fit:
+      mode: cover
+
+  - elementId: palette-title
+    elementType: text
+    bounds: [720, 505, 500, 24]
+    content:
+      fontSize: 14
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Brand Color Palette</strong></p>
+
+  - elementId: color-cream
+    elementType: shape
+    bounds: [720, 540, 115, 50]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$background"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: color-cream-label
+    elementType: text
+    bounds: [720, 595, 115, 18]
+    content:
+      fontSize: 11
+      fontFamily: "Inter"
+      color: "$text"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Cream</p>
+
+  - elementId: color-forest
+    elementType: shape
+    bounds: [848, 540, 115, 50]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: color-forest-label
+    elementType: text
+    bounds: [848, 595, 115, 18]
+    content:
+      fontSize: 11
+      fontFamily: "Inter"
+      color: "$text"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Forest</p>
+
+  - elementId: color-orange
+    elementType: shape
+    bounds: [976, 540, 115, 50]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$secondary"
+
+  - elementId: color-orange-label
+    elementType: text
+    bounds: [976, 595, 115, 18]
+    content:
+      fontSize: 11
+      fontFamily: "Inter"
+      color: "$text"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Orange</p>
+
+  - elementId: color-sky
+    elementType: shape
+    bounds: [1104, 540, 116, 50]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: color-sky-label
+    elementType: text
+    bounds: [1104, 595, 116, 18]
+    content:
+      fontSize: 11
+      fontFamily: "Inter"
+      color: "$text"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Sky</p>
+
+  - elementId: bottom-line
+    elementType: shape
+    bounds: [60, 680, 1160, 2]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-num
+    elementType: text
+    bounds: [1160, 688, 60, 18]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>04</p>

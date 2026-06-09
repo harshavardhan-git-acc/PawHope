@@ -1,0 +1,304 @@
+pageType: content
+background:
+  type: solid
+  color: "$darkBg"
+elements:
+  - elementId: brand-mark
+    elementType: text
+    bounds: [60, 24, 120, 18]
+    content:
+      fontSize: 12
+      fontFamily: "Poppins"
+      color: "$lightGray"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>PAWHOPE</p>
+
+  - elementId: accent-bar
+    elementType: shape
+    bounds: [60, 60, 4, 28]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-title
+    elementType: text
+    bounds: [76, 58, 900, 36]
+    content:
+      fontSize: 32
+      fontFamily: "Poppins"
+      color: "$lightText"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Performance Roadmap: Lighthouse 90+</strong></p>
+
+  - elementId: divider-top
+    elementType: shape
+    bounds: [60, 105, 1160, 1]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "#374151"
+
+  - elementId: kpi1-num
+    elementType: text
+    bounds: [60, 130, 200, 65]
+    content:
+      style: "$bigNumber"
+      color: "$lightText"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>90+</strong></p>
+
+  - elementId: kpi1-label
+    elementType: text
+    bounds: [60, 200, 200, 20]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Lighthouse Score</p>
+
+  - elementId: kpi2-num
+    elementType: text
+    bounds: [300, 130, 200, 65]
+    content:
+      style: "$bigNumber"
+      color: "$primary"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>&lt;2s</strong></p>
+
+  - elementId: kpi2-label
+    elementType: text
+    bounds: [300, 200, 200, 20]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>First Contentful Paint</p>
+
+  - elementId: kpi3-num
+    elementType: text
+    bounds: [540, 130, 200, 65]
+    content:
+      style: "$bigNumber"
+      color: "$secondary"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>60%</strong></p>
+
+  - elementId: kpi3-label
+    elementType: text
+    bounds: [540, 200, 200, 20]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>Bundle Size Reduction</p>
+
+  - elementId: kpi-divider
+    elementType: shape
+    bounds: [60, 240, 1160, 1]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "#374151"
+
+  - elementId: strategy-title
+    elementType: text
+    bounds: [60, 260, 400, 28]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Optimization Strategies</strong></p>
+
+  - elementId: strat1-bg
+    elementType: shape
+    bounds: [60, 305, 370, 170]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "#1F2937"
+    border:
+      style: solid
+      width: 1
+      color: "#374151"
+
+  - elementId: strat1-icon
+    elementType: icon
+    bounds: [80, 320, 28, 28]
+    iconName: "fas:image"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: strat1-title
+    elementType: text
+    bounds: [118, 320, 292, 24]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$lightText"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Image Optimization</strong></p>
+
+  - elementId: strat1-body
+    elementType: text
+    bounds: [80, 355, 330, 105]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$lightGray"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>WebP/AVIF formats, lazy loading via IntersectionObserver, vite-plugin-image-optimizer for build-time compression.</p>
+
+  - elementId: strat2-bg
+    elementType: shape
+    bounds: [455, 305, 370, 170]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "#1F2937"
+    border:
+      style: solid
+      width: 1
+      color: "#374151"
+
+  - elementId: strat2-icon
+    elementType: icon
+    bounds: [475, 320, 28, 28]
+    iconName: "fas:code-branch"
+    fill:
+      type: solid
+      color: "$secondary"
+
+  - elementId: strat2-title
+    elementType: text
+    bounds: [513, 320, 292, 24]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$lightText"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Code Splitting</strong></p>
+
+  - elementId: strat2-body
+    elementType: text
+    bounds: [475, 355, 330, 105]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$lightGray"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>React.lazy + Suspense for route-based splitting. Vendor chunking via Rollup. Tree-shaking for minimal bundles.</p>
+
+  - elementId: strat3-bg
+    elementType: shape
+    bounds: [850, 305, 370, 170]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "#1F2937"
+    border:
+      style: solid
+      width: 1
+      color: "#374151"
+
+  - elementId: strat3-icon
+    elementType: icon
+    bounds: [870, 320, 28, 28]
+    iconName: "fas:wind"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: strat3-title
+    elementType: text
+    bounds: [908, 320, 292, 24]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$lightText"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>CSS &amp; Compression</strong></p>
+
+  - elementId: strat3-body
+    elementType: text
+    bounds: [870, 355, 330, 105]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$lightGray"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Tailwind JIT + PurgeCSS strips unused styles. Gzip/Brotli compression. CSS code splitting in Vite build.</p>
+
+  - elementId: additional-title
+    elementType: text
+    bounds: [60, 500, 400, 28]
+    content:
+      fontSize: 20
+      fontFamily: "Poppins"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Additional Measures</strong></p>
+
+  - elementId: additional-list
+    elementType: text
+    bounds: [60, 540, 1160, 120]
+    content:
+      fontSize: 15
+      fontFamily: "Inter"
+      color: "#D1D5DB"
+      lineHeight: 1.7
+      align: [left, top]
+      text: |
+        <ul>
+        <li><strong style="color:$lightText;">Caching &amp; CDN</strong> — Vercel global CDN with long cache headers for static assets</li>
+        <li><strong style="color:$lightText;">Bundle Monitoring</strong> — Visualizer plugin to identify large dependencies; lightweight Swiper over bloated alternatives</li>
+        <li><strong style="color:$lightText;">Critical CSS</strong> — Above-the-fold CSS inlined for fastest possible First Contentful Paint</li>
+        </ul>
+
+  - elementId: page-num
+    elementType: text
+    bounds: [1160, 688, 60, 18]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>11</p>

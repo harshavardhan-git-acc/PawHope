@@ -1,0 +1,159 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: brand-mark
+    elementType: text
+    bounds: [60, 24, 120, 18]
+    content:
+      fontSize: 12
+      fontFamily: "Poppins"
+      color: "$lightGray"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>PAWHOPE</p>
+
+  - elementId: accent-bar
+    elementType: shape
+    bounds: [60, 60, 4, 28]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-title
+    elementType: text
+    bounds: [76, 58, 900, 36]
+    content:
+      style: "$pageTitle"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Component Ecosystem: 20+ Reusables</strong></p>
+
+  - elementId: divider-top
+    elementType: shape
+    bounds: [60, 105, 1160, 1]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$borderLight"
+
+  - elementId: col1
+    elementType: text
+    bounds: [60, 120, 370, 250]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong style="color:$primary; font-size:16px;">HeroSection</strong></p>
+        <p>Full-screen background image + overlay with headline and CTAs. Parallax image layers with fade-in text animations.</p>
+        <p style="margin-top:10px"><strong style="color:$primary; font-size:16px;">StatsSection</strong></p>
+        <p>Four counters (rescue/adopt/volunteer/donations) using React CountUp, triggered on scroll via Intersection Observer.</p>
+
+  - elementId: col2
+    elementType: text
+    bounds: [455, 120, 370, 250]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong style="color:$primary; font-size:16px;">StoryTimeline</strong></p>
+        <p>Vertical timeline (Founded, Mission, Vision, Values) with Lucide icons. Appears one by one on scroll.</p>
+        <p style="margin-top:10px"><strong style="color:$primary; font-size:16px;">RescuePrograms</strong></p>
+        <p>Grid of 5 cards (Emergency, Medical, etc.) with illustrative icons. Hover: slight scale via Framer Motion.</p>
+
+  - elementId: col3
+    elementType: text
+    bounds: [850, 120, 370, 250]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong style="color:$primary; font-size:16px;">FeaturedStory</strong></p>
+        <p>Before/After draggable image comparison slider with stage indicators (Found, Rescued, Recovered, Adopted).</p>
+        <p style="margin-top:10px"><strong style="color:$primary; font-size:16px;">AdoptSection</strong></p>
+        <p>Filterable PetCard grid with search UI. PetModal with image carousel, health info, and backstory.</p>
+
+  - elementId: divider-mid
+    elementType: shape
+    bounds: [60, 385, 1160, 1]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$borderLight"
+
+  - elementId: col4
+    elementType: text
+    bounds: [60, 400, 370, 250]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong style="color:$primary; font-size:16px;">DonationSection</strong></p>
+        <p>Preset amount buttons + custom input. ImpactCalculator with range slider ("Rs.500 = 2 meals"). Monthly goal progress bar.</p>
+        <p style="margin-top:10px"><strong style="color:$primary; font-size:16px;">SuccessStories</strong></p>
+        <p>SwiperJS carousel of before/after image pairs with captions and adopter quotes. Manual navigation.</p>
+
+  - elementId: col5
+    elementType: text
+    bounds: [455, 400, 370, 250]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong style="color:$primary; font-size:16px;">Testimonials</strong></p>
+        <p>Swiper carousel of user quotes with avatars. Accessible controls, pause on hover, no flashing.</p>
+        <p style="margin-top:10px"><strong style="color:$primary; font-size:16px;">FAQ</strong></p>
+        <p>Keyboard-accessible accordion (one open at a time). Enter to toggle, ARIA roles for screen readers.</p>
+
+  - elementId: col6
+    elementType: text
+    bounds: [850, 400, 370, 250]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p><strong style="color:$primary; font-size:16px;">VolunteerHub</strong></p>
+        <p>Role listings with sign-up form. Controlled components with validation.</p>
+        <p style="margin-top:10px"><strong style="color:$primary; font-size:16px;">Global Animations</strong></p>
+        <p>Framer Motion variants for fade-in-up, slide-in, scale-on-hover. Page transitions with prefers-reduced-motion support.</p>
+
+  - elementId: bottom-line
+    elementType: shape
+    bounds: [60, 680, 1160, 2]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-num
+    elementType: text
+    bounds: [1160, 688, 60, 18]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>08</p>

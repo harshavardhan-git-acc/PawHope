@@ -1,0 +1,413 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: brand-mark
+    elementType: text
+    bounds: [60, 24, 120, 18]
+    content:
+      fontSize: 12
+      fontFamily: "Poppins"
+      color: "$lightGray"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>PAWHOPE</p>
+
+  - elementId: accent-bar
+    elementType: shape
+    bounds: [60, 60, 4, 28]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-title
+    elementType: text
+    bounds: [76, 58, 900, 36]
+    content:
+      style: "$pageTitle"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Site Structure: 8 Pages Driving Engagement</strong></p>
+
+  - elementId: divider-top
+    elementType: shape
+    bounds: [60, 105, 1160, 1]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$borderLight"
+
+  - elementId: col1-bg
+    elementType: shape
+    bounds: [60, 125, 270, 270]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: col1-icon
+    elementType: icon
+    bounds: [80, 145, 32, 32]
+    iconName: "fas:house"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: col1-title
+    elementType: text
+    bounds: [80, 188, 230, 22]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Home</strong></p>
+
+  - elementId: col1-body
+    elementType: text
+    bounds: [80, 218, 230, 160]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Long-scroll landing with Hero, Impact Stats, Story Timeline, Rescue Programs, Testimonials, FAQ, and Newsletter sections.</p>
+
+  - elementId: col2-bg
+    elementType: shape
+    bounds: [357, 125, 270, 270]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: col2-icon
+    elementType: icon
+    bounds: [377, 145, 32, 32]
+    iconName: "fas:paw"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: col2-title
+    elementType: text
+    bounds: [377, 188, 230, 22]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Adopt</strong></p>
+
+  - elementId: col2-body
+    elementType: text
+    bounds: [377, 218, 230, 160]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Searchable pet gallery with filters (species, age, status). Lazy-loaded PetCards with PetModal detail view.</p>
+
+  - elementId: col3-bg
+    elementType: shape
+    bounds: [654, 125, 270, 270]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: col3-icon
+    elementType: icon
+    bounds: [674, 145, 32, 32]
+    iconName: "fas:heart"
+    fill:
+      type: solid
+      color: "$secondary"
+
+  - elementId: col3-title
+    elementType: text
+    bounds: [674, 188, 230, 22]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Donate</strong></p>
+
+  - elementId: col3-body
+    elementType: text
+    bounds: [674, 218, 230, 160]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Donation tiers with interactive impact calculator. One-time/monthly toggle. Progress tracker for monthly goals.</p>
+
+  - elementId: col4-bg
+    elementType: shape
+    bounds: [951, 125, 270, 270]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: col4-icon
+    elementType: icon
+    bounds: [971, 145, 32, 32]
+    iconName: "fas:hand-holding-heart"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: col4-title
+    elementType: text
+    bounds: [971, 188, 230, 22]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Volunteer</strong></p>
+
+  - elementId: col4-body
+    elementType: text
+    bounds: [971, 218, 230, 160]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Role listings (Foster Care, Event Helper) with signup form. Name, Email, Phone, Interests, Availability fields.</p>
+
+  - elementId: col5-bg
+    elementType: shape
+    bounds: [60, 420, 270, 245]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: col5-icon
+    elementType: icon
+    bounds: [80, 440, 32, 32]
+    iconName: "fas:calendar"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: col5-title
+    elementType: text
+    bounds: [80, 483, 230, 22]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Events</strong></p>
+
+  - elementId: col5-body
+    elementType: text
+    bounds: [80, 513, 230, 135]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Calendar of adoption drives, fundraisers, and campaigns. Date, description, and registration links.</p>
+
+  - elementId: col6-bg
+    elementType: shape
+    bounds: [357, 420, 270, 245]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: col6-icon
+    elementType: icon
+    bounds: [377, 440, 32, 32]
+    iconName: "fas:graduation-cap"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: col6-title
+    elementType: text
+    bounds: [377, 483, 230, 22]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Education</strong></p>
+
+  - elementId: col6-body
+    elementType: text
+    bounds: [377, 513, 230, 135]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Article hub covering responsible pet ownership, animal welfare guides, and educational resources.</p>
+
+  - elementId: col7-bg
+    elementType: shape
+    bounds: [654, 420, 270, 245]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: col7-icon
+    elementType: icon
+    bounds: [674, 440, 32, 32]
+    iconName: "fas:images"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: col7-title
+    elementType: text
+    bounds: [674, 483, 230, 22]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Gallery</strong></p>
+
+  - elementId: col7-body
+    elementType: text
+    bounds: [674, 513, 230, 135]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Masonry photo grid by category (shelter life, adoption success). Lightbox viewer with lazy loading via IntersectionObserver.</p>
+
+  - elementId: col8-bg
+    elementType: shape
+    bounds: [951, 420, 270, 245]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$cardBg"
+    border:
+      style: solid
+      width: 1
+      color: "$borderLight"
+
+  - elementId: col8-icon
+    elementType: icon
+    bounds: [971, 440, 32, 32]
+    iconName: "fas:file-shield"
+    fill:
+      type: solid
+      color: "$lightGray"
+
+  - elementId: col8-title
+    elementType: text
+    bounds: [971, 483, 230, 22]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$text"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Legal</strong></p>
+
+  - elementId: col8-body
+    elementType: text
+    bounds: [971, 513, 230, 135]
+    content:
+      fontSize: 13
+      fontFamily: "Inter"
+      color: "$text"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Terms of Service and Privacy Policy pages. Standard legal placeholder content.</p>
+
+  - elementId: bottom-line
+    elementType: shape
+    bounds: [60, 680, 1160, 2]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: page-num
+    elementType: text
+    bounds: [1160, 688, 60, 18]
+    content:
+      style: "$caption"
+      align: [right, middle]
+      wrap: false
+      text: |
+        <p>07</p>

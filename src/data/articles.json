@@ -1,0 +1,46 @@
+[
+  {
+    "id": "article-1",
+    "title": "Responsible Pet Ownership: The Ultimate Guide",
+    "author": "Dr. Sarah Jenkins",
+    "date": "2026-05-10",
+    "category": "Pet Care",
+    "readTime": "5 min read",
+    "summary": "Bringing a pet into your life is a long-term commitment. Read our essential guidelines on nutrition, health checks, training, and mental stimulation to ensure they live a happy life.",
+    "content": "Responsible pet ownership begins before you even bring an animal home. It requires assessing whether your lifestyle, budget, and living space align with a pet's needs. Once they arrive, providing a high-quality diet, regular veterinary checkups, vaccination schedules, and daily mental and physical exercise are vital. Training and socialization build confidence, reducing behavior issues. Remember, a pet is a family member for life, requiring commitment, love, and care through all stages of their life.",
+    "image": "/images/5_6_200_Sunset_Dusk_Dog_Walking_Stock.png"
+  },
+  {
+    "id": "article-2",
+    "title": "How to Safely Introduce a New Dog to Your Home",
+    "author": "Marcus Thorne, Trainer",
+    "date": "2026-04-28",
+    "category": "Behavior & Training",
+    "readTime": "4 min read",
+    "summary": "The first few weeks in a new environment can be stressful for a rescue dog. Learn how to establish routines, create safe spaces, and transition them smoothly into your family.",
+    "content": "Transitioning a shelter dog into your home requires patience and structure. Start by setting up a designated quiet zone or crate before they arrive. Keep initial introductions quiet; avoid inviting friends over for the first few days. Maintain a consistent feeding, potty, and walking schedule to give them a sense of predictability and security. Use positive reinforcement to reward good behavior, and never punish them for accidents, as they are adjusting to a new environment. Let them explore at their own pace.",
+    "image": "/images/6_3_382_Hope_Face_Dog_Royalty_Free.png"
+  },
+  {
+    "id": "article-3",
+    "title": "The Benefits of Adopting a Senior Dog",
+    "author": "Elena Rostova",
+    "date": "2026-03-15",
+    "category": "Adoption Tips",
+    "readTime": "6 min read",
+    "summary": "Senior dogs are often overlooked in shelters, but they make some of the best companions. Discover why adopting an older dog is an incredibly rewarding experience.",
+    "content": "While puppies are adorable, senior dogs (typically age 7+) have unique advantages. Most senior shelter dogs are already house-trained and understand basic commands, saving you months of training. They have established personalities, so you know exactly who you are adopting. Seniors have lower energy requirements, making them ideal lapdogs and companions for relaxed strolls. Best of all, by adopting an older dog, you are saving a life that is otherwise often neglected in shelter systems, receiving unconditional gratitude.",
+    "image": "/images/7_Senior_Shelter_Dog_With_Everything.png"
+  },
+  {
+    "id": "article-4",
+    "title": "Why Spaying & Neutering Matters for Welfare",
+    "author": "Dr. Sarah Jenkins",
+    "date": "2026-02-18",
+    "category": "Animal Welfare",
+    "readTime": "3 min read",
+    "summary": "Understanding how spaying and neutering controls the stray population, improves animal health, and reduces behavioral problems in pets.",
+    "content": "Spaying and neutering are critical tools in reducing pet overpopulation and the stray crisis. Millions of healthy animals are euthanized or suffer as strays every year due to accidental litters. Beyond population control, sterilization offers significant health benefits, including reducing the risk of uterine and testicular cancers and infections. It also mitigates behaviors like roaming, marking, and aggression. Supporting free and low-cost sterilization clinics is one of the most effective ways to make a lasting impact on community animal welfare.",
+    "image": "/images/7_32_700_Dog_Rescue_Stock_Photos_Pictures.png"
+  }
+]

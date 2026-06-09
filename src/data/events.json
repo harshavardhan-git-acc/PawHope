@@ -1,0 +1,46 @@
+[
+  {
+    "id": "event-1",
+    "title": "Adoption Day at the Park",
+    "date": "2026-06-20",
+    "time": "10:00 AM - 3:00 PM",
+    "location": "Central Park Meadows, Pavilion B",
+    "description": "Come meet our adorable adoptable dogs in person! Our volunteers will be on-site to answer questions about the adoption process, foster opportunities, and volunteer roles. You might just find your new best friend!",
+    "status": "Upcoming",
+    "category": "Adoption Camp",
+    "image": "/images/5_6_200_Sunset_Dusk_Dog_Walking_Stock.png"
+  },
+  {
+    "id": "event-2",
+    "title": "Pet Care Seminar: Nutrition & Training",
+    "date": "2026-07-05",
+    "time": "2:00 PM - 4:30 PM",
+    "location": "PawHope Community Center & Online",
+    "description": "Learn the essentials of responsible pet ownership from certified veterinarians and behavioral trainers. Topics include puppy nutrition, positive reinforcement training, and managing separation anxiety.",
+    "status": "Upcoming",
+    "category": "Educational Workshop",
+    "image": "/images/7_Senior_Shelter_Dog_With_Everything.png"
+  },
+  {
+    "id": "event-3",
+    "title": "Annual PawHope Charity Gala",
+    "date": "2026-08-12",
+    "time": "7:00 PM - 11:00 PM",
+    "location": "Grand Hyatt Ballroom & Livestream",
+    "description": "Our biggest fundraiser of the year! Join us for a night of inspiring rescue stories, silent auctions, live music, and dining. All ticket sales and donations go directly towards our emergency medical fund for injured strays.",
+    "status": "Upcoming",
+    "category": "Fundraiser",
+    "image": "/images/3_8_Dogs_Who_Came_a_Long_Way_to_Find.png"
+  },
+  {
+    "id": "event-4",
+    "title": "Free Rabies Vaccination & Microchip Drive",
+    "date": "2026-05-15",
+    "time": "9:00 AM - 1:00 PM",
+    "location": "PawHope Shelter Parking Lot",
+    "description": "To support local pet owners, we hosted a free vaccination and microchipping clinic. Over 150 community pets received free care, helping keep our neighborhood dogs healthy and safe.",
+    "status": "Past",
+    "category": "Community Outreach",
+    "image": "/images/7_32_700_Dog_Rescue_Stock_Photos_Pictures.png"
+  }
+]

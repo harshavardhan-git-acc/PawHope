@@ -1,0 +1,65 @@
+pageType: chapter
+background:
+  type: solid
+  color: "$darkBg"
+elements:
+  - elementId: bg-image
+    elementType: image
+    bounds: [0, 0, 1280, 720]
+    src: "/mnt/agents/output/pawhope-design/images/5_6_200_Sunset_Dusk_Dog_Walking_Stock.png"
+    fit:
+      mode: cover
+    opacity: 0.5
+
+  - elementId: gradient-mask
+    elementType: shape
+    bounds: [0, 0, 1280, 720]
+    shapeName: rect
+    fill:
+      type: gradient
+      gradientType: linear
+      angle: 0
+      stops:
+        - {position: 0, color: "#1a2332E6"}
+        - {position: 0.6, color: "#1a2332B3"}
+        - {position: 1, color: "#1a233280"}
+
+  - elementId: chapter-num
+    elementType: text
+    bounds: [80, 200, 300, 90]
+    content:
+      style: "$chapterNumber"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>01</strong></p>
+
+  - elementId: accent-line
+    elementType: shape
+    bounds: [80, 300, 80, 4]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: chapter-title
+    elementType: text
+    bounds: [80, 320, 800, 50]
+    content:
+      style: "$chapterTitle"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p><strong>Vision &amp; Design Philosophy</strong></p>
+
+  - elementId: chapter-subtitle
+    elementType: text
+    bounds: [80, 385, 700, 50]
+    content:
+      fontSize: 18
+      fontFamily: "Inter"
+      color: "#D1D5DB"
+      align: [left, middle]
+      wrap: true
+      text: |
+        <p>Blending conservation NGO storytelling with Apple-like clean design to create an emotional, modern user experience</p>

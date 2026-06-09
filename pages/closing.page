@@ -1,0 +1,91 @@
+pageType: final
+background:
+  type: solid
+  color: "$darkBg"
+elements:
+  - elementId: bg-image
+    elementType: image
+    bounds: [0, 0, 1280, 720]
+    src: "/mnt/agents/output/pawhope-design/images/5_29_229_Rescue_Dog_Happy_Royalty_Free.png"
+    fit:
+      mode: cover
+    opacity: 0.5
+
+  - elementId: gradient-mask
+    elementType: shape
+    bounds: [0, 0, 1280, 720]
+    shapeName: rect
+    fill:
+      type: gradient
+      gradientType: linear
+      angle: 90
+      stops:
+        - {position: 0, color: "#1a233240"}
+        - {position: 0.4, color: "#1a2332B3"}
+        - {position: 1, color: "#1a2332E6"}
+
+  - elementId: accent-line-top
+    elementType: shape
+    bounds: [540, 240, 200, 4]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: closing-title
+    elementType: text
+    bounds: [140, 265, 1000, 70]
+    content:
+      fontSize: 48
+      fontFamily: "Poppins"
+      color: "$lightText"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p><strong>Every Life Matters</strong></p>
+
+  - elementId: closing-tagline
+    elementType: text
+    bounds: [190, 355, 900, 80]
+    content:
+      fontSize: 18
+      fontFamily: "Inter"
+      color: "#D1D5DB"
+      lineHeight: 1.6
+      align: [center, middle]
+      text: |
+        <p>Building a digital home for voiceless animals — where design meets compassion,</p>
+        <p>and technology drives impact.</p>
+
+  - elementId: paw-icon
+    elementType: icon
+    bounds: [616, 440, 48, 48]
+    iconName: "fas:paw"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: pawhope-brand
+    elementType: text
+    bounds: [440, 510, 400, 30]
+    content:
+      fontSize: 16
+      fontFamily: "Poppins"
+      color: "$lightGray"
+      letterSpacing: 4
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>PAWHOPE</p>
+
+  - elementId: footer-tagline
+    elementType: text
+    bounds: [290, 550, 700, 24]
+    content:
+      fontSize: 14
+      fontFamily: "Inter"
+      color: "$lightGray"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>They may not have a voice, but we can give them a platform.</p>
